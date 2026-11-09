@@ -246,6 +246,17 @@ details.preg .cuerpo ul{padding-left:1.1em;display:grid;gap:6px}
 .numero button{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;background:none;border:1px solid rgba(244,241,236,.35);color:#F4F1EC;padding:6px 10px;border-radius:2px;cursor:pointer}
 @media (max-width:860px){.cierre{grid-template-columns:1fr}}
 
+/* ebook */
+.ebook{background:var(--arena);border-radius:var(--radio);padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:center}
+.ebook-txt{display:grid;gap:16px}
+.ebook-txt .lead{color:var(--tinta-2)}
+.ebook-acc{display:grid;gap:14px;justify-items:start}
+.ebook-precio{font-family:var(--f-display);font-weight:600;font-size:clamp(2.4rem,4vw,3.2rem);line-height:1;text-transform:uppercase}
+.ebook-precio small{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.16em;color:var(--tinta-2);margin-left:8px;font-weight:400}
+.ebook-datos{display:flex;flex-wrap:wrap;gap:8px}
+.ebook-datos span{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--tinta-2);padding:6px 10px;border-radius:99px;color:var(--tinta-2)}
+@media (max-width:860px){.ebook{grid-template-columns:1fr}}
+
 /* footer */
 footer{padding-block:56px 40px;border-top:1px solid var(--linea);margin-top:clamp(64px,9vw,120px)}
 .pie{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:32px}
@@ -285,6 +296,7 @@ footer{padding-block:56px 40px;border-top:1px solid var(--linea);margin-top:clam
       <a href="#proceso">Cómo funciona</a>
       <a href="#dudas">Dudas</a>
       <a href="#objetivo">Tu objetivo</a>
+      <a href="#ebook">Ebook</a>
       <a class="btn btn-solido" href="https://wa.me/524612419528?text=Hola%20Danna%2C%20me%20gustar%C3%ADa%20agendar%20una%20consulta.%20Te%20cuento%20mi%20situaci%C3%B3n%3A" target="_blank" rel="noopener">Agendar <span class="fl">→</span></a>
     </nav>
   </div>
@@ -337,6 +349,22 @@ footer{padding-block:56px 40px;border-top:1px solid var(--linea);margin-top:clam
       <div><span class="ceja">Agenda</span><b>Por WhatsApp</b></div>
     </div>
   </div>
+
+  <section class="envoltura" id="ebook" aria-label="Ebook">
+    <div class="ebook rev">
+      <div class="ebook-txt">
+        <p class="ceja">Nuevo · Ebook</p>
+        <h2 class="titulo t-l">Guía práctica de Nutrición Clínica</h2>
+        <p class="lead">Mi guía en formato digital para consultar cuando la necesites. La compras en línea y te llega al instante.</p>
+        <div class="ebook-datos"><span>Descarga inmediata</span><span>Pago seguro con Hotmart</span></div>
+      </div>
+      <div class="ebook-acc">
+        <p class="ebook-precio">$499<small>MXN · IVA incluido</small></p>
+        <a class="btn btn-solido" href="https://pay.hotmart.com/F108385985W" target="_blank" rel="noopener">Comprar ebook <span class="fl">→</span></a>
+        <a class="btn" href="https://wa.me/524612419528?text=Hola%20Danna%2C%20tengo%20una%20duda%20sobre%20el%20ebook%20de%20Nutrici%C3%B3n%20Cl%C3%ADnica%3A" target="_blank" rel="noopener">Dudas por WhatsApp <span class="fl">→</span></a>
+      </div>
+    </div>
+  </section>
 
   <section class="envoltura" aria-label="Enfoque">
     <div class="banda rev">
@@ -501,7 +529,7 @@ footer{padding-block:56px 40px;border-top:1px solid var(--linea);margin-top:clam
       </div>
       <div><h4>Consulta</h4><ul><li><a href="#consulta">Qué incluye</a></li><li><a href="#proceso">Cómo funciona</a></li><li><a href="#dudas">Preguntas frecuentes</a></li><li><a href="#objetivo">Tu objetivo y agenda</a></li></ul></div>
       <div><h4>Sobre mí</h4><ul><li><a href="#sobre">Conóceme</a></li><li><a href="https://www.instagram.com/nutreaa_danna/" target="_blank" rel="noopener">Instagram</a></li></ul></div>
-      <div><h4>Contacto</h4><ul><li><a href="https://wa.me/524612419528" target="_blank" rel="noopener">WhatsApp</a></li><li>461 241 9528</li></ul></div>
+      <div><h4>Contacto</h4><ul><li><a href="https://wa.me/524612419528" target="_blank" rel="noopener">WhatsApp</a></li><li>461 241 9528</li><li><a href="https://pay.hotmart.com/F108385985W" target="_blank" rel="noopener">Ebook Nutrición Clínica</a></li></ul></div>
     </div>
     <div class="legal"><span>© 2026 Danna Bribiesca</span><span>@nutreaa_danna</span></div>
   </div>
